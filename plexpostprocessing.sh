@@ -31,8 +31,9 @@
 # folder.  This script can be used for Plex or Jellyfin.  Perhaps Emby or others as well with some adjustment.
 # Seeing an issue with 1080p files creating an .edl file and removing commercials.  Could be local to my setup.
 #
-#Comskip.ini examples: https://discussion.mcebuddy2x.com/t/comskip-ini-help/4353
-#				       https://www.kaashoek.com/comskip/viewforum.php?f=7&sid=a009d7f9b6236e73953d2a625b1062d2
+# Comskip.ini examples: 
+# https://discussion.mcebuddy2x.com/t/comskip-ini-help/4353
+# https://www.kaashoek.com/comskip/viewforum.php?f=7&sid=a009d7f9b6236e73953d2a625b1062d2
 #
 # ---------------------------------------------------------
 # Future Adjustment Ideas:
@@ -43,11 +44,11 @@
 # More/Better error handling and logging, if necessary
 # Update to work with more than .ts files
 # Test output to formats other than .mp4
-# Review mkvpropedit, mkvtoolnix, mkvmerge, comskip, ccextractor
+# Review mkvpropedit, mkvtoolnix, mkvmerge, comskip, ccextractor, etc. for expanded use cases
 # Multithread and parallel processing
-# Disk space Check
+# Disk space check
 # Progress reporting when run manually
-# Email alert
+# Email alerts
 # Input validation
 # Processing for all .ts files in folder
 # 1080p .edl file creation and commercial removing fix (corrupted double-linked list)
@@ -81,10 +82,10 @@ TERMINAL_LOG_FILE="/PATH/TO/LOCATION"  # Additional log for entire terminal outp
 HANDBRAKE_PRESET="Very Fast 1080p30"
 SUBTITLE_TRACKS="1,2,3,4,5,6"
 OUTPUT_FORMAT="mp4"
-TMP_DIR="/PATH/TO/LOCATION"  # Temporary directory for processing
-COMCHAP_PATH="/PATH/TO/LOCATION" # Set the location of comchap tool
+TMP_DIR="/PATH/TO/LOCATION"       # Temporary directory for processing
+COMCHAP_PATH="/PATH/TO/LOCATION"  # Set the location of comchap tool
 COMCUT_PATH="/PATH/TO/LOCATION"   # Set the location of comcut tool
-#COMSKIP_INI="/PATH/TO/LOCATION"     # Set the location of the comskip.ini file, defaults to /root/.comskip.ini
+#COMSKIP_INI="/PATH/TO/LOCATION"  # Set the location of the comskip.ini file, defaults to /root/.comskip.ini
 
 # Redirect all output to terminal log file
 exec > >(tee -a "$TERMINAL_LOG_FILE") 2>&1
