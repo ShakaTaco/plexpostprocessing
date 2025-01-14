@@ -25,22 +25,11 @@ The script logs and tmp directories will need to be added as well as the locatio
 1. Name the script plexpostprocessing.sh and chmod +x on it.
 2. Save it here: var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Scripts.
 3. Uses /root/.comskip.ini for the comskip.ini file after the initial run.  Location is commented out in the script for now.
-4. Update the log directory, tmp directory, and comchap/comcut installation location as necessary.  Commented out use of all processors for HandBrake and instead using
+4. Update the log directory, tmp directory, and comchap/comcut installation location as necessary.
 5. Change the number of processors for HandBrake as needed.  This is done via _--encopts="threads=$(( $(nproc) / 2 ))"_ in the script.  This uses nproc (the number of processors on the server) divided by 2.
 You could use _--encopts="threads=$(nproc)"_ to use all available processors.
 
-You can also run the script manually with the path to a .ts file as an argument, for example: `./plexpostprocessing.sh /path/to/your/file.ts`. For processing multiple .ts files, modify the script entry point to iterate through a list of files by replacing the main function with the following code:
-```
-main() {
-    check_dependencies
-    for input_file in "$@"; do
-        validate_input "$input_file"
-        process_file "$input_file"
-    done
-}
-main "$@"
-```
-This is currently commented out in the script.
+You can also run the script manually with the path to a .ts file as an argument, for example: `./plexpostprocessing.sh /path/to/your/file.ts`. For processing multiple .ts files add each file as an argument after calling the script to iterate through a list of files.
 
 ## Known Issues
 
