@@ -43,13 +43,16 @@ Future improvements to the script could include chapter creation for Plex use, a
 
 For more information and examples, refer to the [Comskip Examples](https://discussion.mcebuddy2x.com/t/comskip-ini-help/4353) and the [Comskip Forum](https://www.kaashoek.com/comskip/viewforum.php?f=7&sid=a009d7f9b6236e73953d2a625b1062d2).  Comchap can be found at [here](https://github.com/BrettSheleski/comchap).
 
-## Credits
+## Credits and Licensing
 
-[BrettSheleski](https://github.com/BrettSheleski) - [Comchap/Comcut License](https://github.com/BrettSheleski/comchap/blob/master/LICENSE.txt)
+The below tools are used in the plexpostprocessing.sh script and licensed as follows.  The rest which is not attributed it is licensed under the GNU General Public License v2.0 (or later) within this repository.
 
-[Handbrake](https://handbrake.fr/) - [Handbrake License](https://handbrake.fr/docs/license-cc-by-sa-4.0.html)
+[BrettSheleski](https://github.com/BrettSheleski) - Comchap/comcut is used under the MIT license provided by BrettSheleski.  [Comchap/Comcut License](https://github.com/BrettSheleski/comchap/blob/master/LICENSE.txt)
 
-[FFmpeg/ffprobe](https://www.ffmpeg.org/) - [FFmpeg/ffprobe License](https://www.ffmpeg.org/legal.html)
+[Handbrake](https://handbrake.fr/) - Handbrake uses the Creative Commons Attribution-ShareAlike 4.0 International Public License. [Handbrake License](https://handbrake.fr/docs/license-cc-by-sa-4.0.html)
 
-[erikkaashoek](https://github.com/erikkaashoek) - [Comskip License](https://github.com/erikkaashoek/Comskip/blob/master/LICENSE)
+[FFmpeg/ffprobe](https://www.ffmpeg.org/) - FFmpeg is licensed under the [GNU Lesser General Public License (LGPL) version 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) or later. However, FFmpeg incorporates several optional parts and optimizations that are covered by the [GNU General Public License (GPL) version 2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or later. If those parts get used the GPL applies to all of FFmpeg. [FFmpeg/ffprobe License](https://www.ffmpeg.org/legal.html)
 
+[erikkaashoek](https://github.com/erikkaashoek) - Comskip uses the GNU General Public License v2.0 license. [Comskip License](https://github.com/erikkaashoek/Comskip/blob/master/LICENSE)
+
+Refer to the respective licenses for full terms and conditions. Attribution has been provided where required.
