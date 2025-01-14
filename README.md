@@ -45,19 +45,11 @@ For more information and examples, refer to the [Comskip Examples](https://discu
 
 ## Credits
 
-[BrettSheleski](https://github.com/BrettSheleski)
+[BrettSheleski](https://github.com/BrettSheleski) - [Comchap/Comcut License](https://github.com/BrettSheleski/comchap/blob/master/LICENSE.txt)
 
-[Comchap/Comcut License](https://github.com/BrettSheleski/comchap/blob/master/LICENSE.txt)
+[Handbrake](https://handbrake.fr/) - [Handbrake License](https://handbrake.fr/docs/license-cc-by-sa-4.0.html)
 
-[Handbrake](https://handbrake.fr/)
+[FFmpeg/ffprobe](https://www.ffmpeg.org/) - [FFmpeg/ffprobe License](https://www.ffmpeg.org/legal.html)
 
-[Handbrake License](https://handbrake.fr/docs/license-cc-by-sa-4.0.html)
-
-[FFmpeg/ffprobe](https://www.ffmpeg.org/)
-
-[FFmpeg/ffprobe License](https://www.ffmpeg.org/legal.html)
-
-[erikkaashoek](https://github.com/erikkaashoek)
-
-[Comskip License](https://github.com/erikkaashoek/Comskip/blob/master/LICENSE)
+[erikkaashoek](https://github.com/erikkaashoek) - [Comskip License](https://github.com/erikkaashoek/Comskip/blob/master/LICENSE)
 
